@@ -1,4 +1,3 @@
-
 version: 0.2
 
 phases:
@@ -7,4 +6,3 @@ phases:
       - echo "Starting website deployment..."
       - aws s3 cp index.html s3://aws-cicd-project122/index.html
       - echo "Website deployment completed!"
-
